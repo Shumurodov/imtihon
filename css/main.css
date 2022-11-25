@@ -1,0 +1,816 @@
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src:
+        url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/roboto-v30-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-500 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src:
+        url('../fonts/roboto-v30-latin-500.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/roboto-v30-latin-500.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-700 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src:
+        url('../fonts/roboto-v30-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/roboto-v30-latin-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* fredoka-one-regular - latin */
+@font-face {
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/fredoka-one-v13-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src:
+        url('../fonts/fredoka-one-v13-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/fredoka-one-v13-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/fredoka-one-v13-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/fredoka-one-v13-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/fredoka-one-v13-latin-regular.svg#FredokaOne') format('svg');
+    /* Legacy iOS */
+}
+
+/* hind-madurai-regular - latin */
+@font-face {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    src:
+        url('../fonts/hind-madurai-v11-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/hind-madurai-v11-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* hind-madurai-600 - latin */
+@font-face {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    src:
+        url('../fonts/hind-madurai-v11-latin-600.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/hind-madurai-v11-latin-600.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* hind-madurai-500 - latin */
+@font-face {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    src:
+        url('../fonts/hind-madurai-v11-latin-500.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/hind-madurai-v11-latin-500.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* hind-madurai-700 - latin */
+@font-face {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    src:
+        url('../fonts/hind-madurai-v11-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/hind-madurai-v11-latin-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+    background-color: rgba(242, 206, 218, 0.3);
+    padding: 0 50px 150px 50px;
+}
+
+.container1 {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-header1 {
+    overflow: hidden;
+    background-image: url("../img/marojni.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right -200px bottom -50px;
+}
+
+.intro {
+    margin-top: 250px;
+    padding: 0 0 50px;
+}
+
+.header-list {
+    display: flex;
+}
+
+.item {
+    margin-left: 40px;
+}
+
+.item1 {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFAFA;
+    padding: 14px 50px 14px 50px;
+    border-radius: 8px;
+    background: #D23166;
+    border-radius: 5px;
+}
+
+.item12 {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFAFA;
+    padding: 14px 50px 14px 50px;
+    border-radius: 8px;
+    background: #D23166;
+    border-radius: 5px;
+}
+
+.item2:hover {
+    color: #D23166;
+}
+
+.item2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(21, 1, 1, 0.6);
+}
+
+.p {
+    margin-bottom: 10px;
+    width: 180px;
+    height: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: black;
+}
+
+.p1 {
+    margin-bottom: 35px;
+    width: 665px;
+    height: 130px;
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57.33px;
+    line-height: 120.5%;
+    color: rgba(15, 1, 1, 0.9);
+}
+
+.p2 {
+    margin-bottom: 50px;
+    width: 523px;
+    height: 100px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0F0101;
+}
+
+.rang {
+    color: #D23166;
+}
+
+.text {
+    margin-top: 25px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+
+.text-1 {
+    margin-top: 10px;
+    width: 198px;
+    height: 35px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(0, 0, 0), 0.6;
+}
+
+.text1 {
+    margin-top: 25px;
+    text-align: center;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.text2 {
+    margin-top: 25px;
+    text-align: center;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.text-11 {
+    margin-top: 60px;
+    width: 198px;
+    height: 35px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(0, 0, 0), 0.6;
+}
+
+.colorbg2 {
+    background-color: #FAFAFA;
+    width: 1300px;
+    padding: 50px 0 50px 0;
+}
+
+.colorbg21 {
+    background-color: #FFFFFF;
+    width: 1300px;
+    padding: 50px 0 0 0;
+}
+
+.li {
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 50px 50px 50px;
+    background: #FFFFFF;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+}
+
+.intro1 {
+    padding: 140px 0 100px;
+}
+
+.pp {
+    margin-bottom: 15px;
+    width: 349px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+    color: #150101;
+}
+
+.ppp {
+    margin-bottom: 50px;
+    width: 442px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(21, 1, 1, 0.6);
+}
+
+.item123 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FAFAFA;
+    padding: 14px 55px 14px 55px;
+    text-decoration: none;
+    border-radius: 8px;
+    background: #D23166;
+    border-radius: 5px;
+}
+
+.site-header12 {
+    overflow: hidden;
+    background-image: url("../img/marojni1.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right 0 bottom -90px;
+}
+
+.section-title {
+    margin: 0 auto;
+    width: 257px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 61px;
+    color: #150101;
+}
+
+.list {
+    margin: 0 auto;
+    margin-top: 64px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: 3px solid #D64374;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.linkk {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+
+.item-product {
+    margin-right: 40px;
+
+}
+
+.item-l {
+    align-items: center;
+}
+
+.item-l:nth-child(2n-1) {
+    display: flex;
+}
+
+.item-l:nth-child(2n) {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.item-l:nth-child(2n) .product-div {
+    text-align: end;
+}
+
+.product-div {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.product-title {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.p-text {
+    margin-top: 11px;
+    margin-bottom: 28px;
+    width: 457px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.span-1 {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+
+}
+
+.span-2 {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.a1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FAFAFA;
+    background: #D64374;
+    border-radius: 5px;
+    padding: 15px 45px 15px 45px;
+    text-decoration: none;
+}
+
+.a-div {
+    margin-top: 20px;
+}
+
+.google-appstore {
+    margin-left: 485px;
+    display: flex;
+    align-items: center;
+}
+
+.taa {
+    position: relative;
+    display: flex;
+    padding-top: 50px;
+
+}
+
+.img000 {
+    border-radius: 30px;
+    position: absolute;
+    top: 60px;
+}
+
+.divt {
+    margin-left: 500px;
+
+}
+
+.divt h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44.2px;
+    line-height: 52px;
+    color: #000000;
+}
+
+.div-0 {
+    display: flex;
+    align-items: center;
+}
+
+.divt p {
+    width: 607px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+
+    color: #0F0101;
+    margin-top: 20px;
+    margin-bottom: 29px;
+}
+
+.ol-list {
+    margin-bottom: 39px;
+}
+
+.ol-list li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+
+
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.ol-list li:last-child {
+    margin-bottom: 0;
+}
+
+.ol-list li::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    display: block;
+    margin-right: 10px;
+    background-image: url("../img/savatcha.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 3px;
+}
+
+.feedback {
+    display: flex;
+    align-items: center;
+    margin-bottom: 46px;
+}
+
+.adel {
+    margin-right: 21px;
+}
+
+.text55 {
+    width: 322px;
+    margin-bottom: 56px;
+}
+
+.in {
+    display: inline;
+    margin-right: 70px;
+    margin-left: 12px;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+.photo {
+    display: flex;
+    align-items: center;
+    width: 253px;
+    justify-content: space-between;
+}
+
+.section-divas {
+    margin-right: 200px;
+}
+
+
+.form-site {
+    padding-top: 150px;
+    padding-bottom: 71px;
+    position: relative;
+}
+
+.title-form {
+    width: 522px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 36px;
+}
+
+.form {
+    width: 637px;
+    margin: 0 auto;
+}
+
+
+.btn {
+    background: #D64374;
+    border-radius: 5px;
+    color: #fff;
+    padding: 26px 36px 27px 46px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 403px;
+    left: calc(50% + 191px);
+}
+
+.input-1 {
+    border: 1px solid #FFA3A3;
+    border-radius: 5px;
+    padding: 29px 25px;
+    width: 303px;
+    margin-bottom: 37px;
+    margin-right: 25px;
+}
+
+.input-11 {
+    border: 1px solid #FFA3A3;
+    border-radius: 5px;
+    padding: 29px 25px;
+    width: 303px;
+    margin-bottom: 37px;
+}
+
+.input-2 {
+    border: 1px solid #FFA3A3;
+    border-radius: 5px;
+    padding: 29px 25px;
+    width: 637px;
+}
+
+.footer-site {
+    background-color: #0A0808;
+    padding-top: 70px;
+    padding-bottom: 114px;
+    position: relative;
+}
+
+a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.div1 {
+    margin-right: 37px;
+}
+
+.footer-text1 {
+    width: 207px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 9px;
+    margin-bottom: 25px;
+}
+
+.footer-text2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.footer-list1 {
+    display: flex;
+}
+
+.footer-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.footer-item1 {
+    margin-right: 10px;
+}
+
+.footer-item2 {
+    margin-bottom: 10px;
+}
+
+.footer-item2 a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-item3 {
+    margin-bottom: 10px;
+}
+
+.footer-item3 a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-text3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-bottom: 13px;
+}
+
+.field-footer {
+    border: 2px solid #D64374;
+    border-radius: 5px;
+    background-color: #0A0808;
+    padding: 20px 32px;
+    width: 388px;
+}
+
+.btn-footer {
+    color: #FFFFFF;
+    padding: 22px 18px;
+    background-color: #D64374;
+    border-radius: 5px;
+    position: absolute;
+    top: 140px;
+    left: calc(50% + 505px);
+}
+
+.listlink {
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+}
+
+.linkitem {
+    margin-right: 15px;
+}
